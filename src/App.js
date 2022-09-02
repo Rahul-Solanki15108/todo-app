@@ -23,7 +23,7 @@ function App() {
             }}
           >
             <Routes>
-              <Route path="/" element={<TodoList />} />
+              <Route exact path="/" element={<TodoList />} />
               <Route exact path="/create-todo" element={<AddTodo />} />
               <Route exact path="/edit-todo/:todoId" element={<ManageTodo />} />
             </Routes>

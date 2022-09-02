@@ -17,7 +17,7 @@ function ConfirmBoxDelete(props) {
         close();
     }
     return (
-
+        
         <>
             <Dialog
                 open={open}

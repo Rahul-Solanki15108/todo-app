@@ -7,7 +7,7 @@ const TodoList = () => {
             <Typography variant="h4" component="h5">
                 All Task List
             </Typography>
-            <ItemsListing />
+            <ItemsListing /* alltaskData={alltaskData} *//>
         </>
     );
 }

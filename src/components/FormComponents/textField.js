@@ -1,16 +1,12 @@
 import React from 'react';
 import TextField from '@mui/material/TextField';
 import '../../index.css';
-
 export const renderTextField = ({
-
     label,
     input,
     meta: { touched, invalid, error, warning },
     ...custom
-
 }) => (
-    
     <>
     <TextField
         label={label}

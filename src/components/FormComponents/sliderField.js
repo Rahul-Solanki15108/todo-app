@@ -4,11 +4,11 @@ import Slider from '@mui/material/Slider';
 export const renderSliderAgeField = ({
     label,
     input,
-    meta: { touched, error },
+    meta : { touched, error },
     ...custom
 }) => {
     return (
-        <>
+        <>  
             <FormLabel>
                 {label} :  {input.value}
                 {touched &&

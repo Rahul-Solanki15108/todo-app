@@ -35,7 +35,9 @@ function ItemsListing(props) {
             }
         }      
     ];
-
+    const options = {
+        filterType: 'checkbox',
+    };
     return (
         <>
          <ConfirmBoxDelete open={open} close={handleClose} id={todoId}/>

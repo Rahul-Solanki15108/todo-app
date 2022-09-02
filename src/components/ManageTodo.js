@@ -6,16 +6,18 @@ import AddTodo from './AddTodo';
 
 
 function ManageTodo() {
+
     let { todoId } = useParams();
     const dispatch = useDispatch();
     const TaskReducer = useSelector(state => state.TaskReducer?.editTodo);
     useEffect(() => {
         dispatch(getToDo(todoId))
-        
     }, [todoId])
+
     return (
+        
         <div>
-            <AddTodo initialValues={TaskReducer}/>
+            <AddTodo initialValues={TaskReducer} />
         </div>
     )
 }

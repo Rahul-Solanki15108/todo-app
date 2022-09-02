@@ -34,7 +34,6 @@ function AddTodo(props) {
     ];
 
     const submitTodo = (values) => {
-        console.log(values)
         if(params.todoId){
             dispatch(EditTask(values,params.todoId));
             navigate('/');
@@ -62,6 +61,7 @@ return (
 
             <Field labele="date" name="date" component={renderDateField} />
             <br /><br />
+
             <Field label="Task Name" name="taskName" component={renderTextField} />
             <br /><br />
 

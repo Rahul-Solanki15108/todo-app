@@ -14,11 +14,13 @@ export const renderStatusField = ({
                 {...input} //it gives all methods of input and value
                 {...custom}
             >
-                {/* <MenuItem value="">None</MenuItem> */}
                 <MenuItem value="Active">Active</MenuItem>
                 <MenuItem value="In-Active">In-Active</MenuItem>
             </Select>
-        </FormControl><br />
+        </FormControl>
+        
+        <br />
+
         {touched &&
             (error &&
                 <span className="vErrorText">{label}{error}</span>

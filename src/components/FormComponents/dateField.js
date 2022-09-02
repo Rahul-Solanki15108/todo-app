@@ -7,14 +7,6 @@ export const renderDateField = ({ label,
     ...custom }) => {
     return (
         <>
-            {/* <LocalizationProvider dateAdapter={AdapterDateFns}>
-                <DatePicker
-                ForwardRef
-                    label="Enter Date"
-                    {...input}
-                    renderInput={(params) => <TextField {...params}/>}
-                /> ERRORRR  
-            </LocalizationProvider> */}
             <TextField
                 id="date"
                 label={label}

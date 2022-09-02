@@ -33,7 +33,7 @@ function AddTodo(props) {
         }
     ];
 
-    const submitTodo = (values) => {    
+    const submitTodo = (values) => {
         console.log(values)
         if(params.todoId){
             dispatch(EditTask(values,params.todoId));

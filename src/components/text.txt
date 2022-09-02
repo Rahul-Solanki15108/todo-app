@@ -1,0 +1,30 @@
+  // {
+        //     name: "Edit",
+        //     options: {
+        //         customBodyRenderLite: (id) => {
+        //             return (
+        //                 <Link to={"edit-todo/" + id}>
+        //                     <button style={{ border: "none", cursor: "pointer", background: "none" }}>
+        //                         <EditRoundedIcon
+        //                             color={'primary'}
+        //                         />
+        //                     </button>
+        //                 </Link>
+        //             );
+        //         }
+        //     }
+        // },
+        // {
+        //     name: "Delete",
+        //     options: {
+        //         customBodyRenderLite: (id) => {
+        //             return (
+        //                 <button style={{ color: "red", border: "none", cursor: "pointer", background: "none" }}
+        //                     onClick={() => { handleDeleteTask(id) }}
+        //                     >
+        //                     <DeleteIcon />
+        //                 </button>
+        //             );
+        //         }
+        //     }
+        // },
